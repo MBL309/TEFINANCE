@@ -1,6 +1,6 @@
-site_name: Mi Sitio Web Profesional
-site_description: Página web completa desplegada desde Markdown en GitHub.
-site_author: Tu Nombre
+site_name: TEFINANCE
+site_description: App de finanzas personales para organizar ingresos, presupuestos, metas de ahorro y deudas.
+site_author: MBL Development
 
 theme:
   name: material
@@ -13,5 +13,6 @@ theme:
     - search.share          # Permitir compartir resultados de búsqueda
 
 nav:
-  - Politicas de Privacidad: index.md
-  - Terminos y Condiciones: configuracion.md
+  - Inicio: index.md
+  - Política de Privacidad: privacidad.md
+  - Términos y Condiciones: terminos.md

@@ -1,19 +1,19 @@
-# Términos y Condiciones de Uso — TEFI
+# Términos y Condiciones de Uso — TEFINANCE
 
 **Última actualización:** 6 de agosto de 2026  
-**Versión:** 1.0  
-**Aplicación:** TEFI (Finanzas Personales)  
+**Versión:** 1.1  
+**Aplicación:** TEFINANCE (Finanzas Personales)  
 **Plataformas:** iOS (App Store) y Android (Google Play)
 
 ---
 
 ## 1. Objeto del servicio
 
-Los presentes Términos y Condiciones (en adelante, "Términos") regulan el acceso y uso de la aplicación móvil TEFI (en adelante, "la App" o "el Servicio"), desarrollada y operada por MBL Development (en adelante, "el Titular", "nosotros", "nuestro"), con domicilio en República Dominicana.
+Los presentes Términos y Condiciones (en adelante, "Términos") regulan el acceso y uso de la aplicación móvil TEFINANCE (en adelante, "la App" o "el Servicio"), desarrollada y operada por MBL Development (en adelante, "el Titular", "nosotros", "nuestro"), con domicilio en Estados Unidos.
 
-TEFI es una herramienta de gestión de finanzas personales que permite a los usuarios registrar ingresos, crear presupuestos, establecer metas de ahorro, administrar deudas (tarjetas de crédito y préstamos), dar seguimiento a inversiones y fondos de emergencia, crear listas de compras, y generar informes financieros con inteligencia artificial.
+TEFINANCE es una herramienta de gestión de finanzas personales que permite a los usuarios registrar ingresos, crear presupuestos, establecer metas de ahorro, administrar deudas (tarjetas de crédito y préstamos), dar seguimiento a inversiones y fondos de emergencia, crear listas de compras, y generar informes financieros con inteligencia artificial.
 
-**TEFI no es un asesor financiero, contable ni fiscal.** La App es una herramienta de organización personal y los datos, informes o análisis que proporciona no constituyen asesoría financiera profesional.
+**TEFINANCE no es un asesor financiero, contable ni fiscal.** La App es una herramienta de organización personal y los datos, informes o análisis que proporciona no constituyen asesoría financiera profesional.
 
 ---
 
@@ -23,7 +23,7 @@ Al descargar, instalar, acceder o utilizar la App, usted declara que:
 
 - Ha leído, comprendido y acepta estos Términos en su totalidad.
 - Ha leído y acepta nuestra [Política de Privacidad](https://tefiapp.com/politica-de-privacidad).
-- Tiene al menos **13 años de edad**.
+- Cumple con la edad mínima aplicable en su país (**13 años** en general; **14 años** si se registra desde España — ver Sección 3).
 - Tiene la capacidad legal para celebrar este acuerdo (o cuenta con la autorización de un padre o tutor legal si es menor de 18 años).
 
 Si no está de acuerdo con alguno de estos Términos, no utilice la App y elimínela de su dispositivo.
@@ -32,11 +32,12 @@ Si no está de acuerdo con alguno de estos Términos, no utilice la App y elimí
 
 ## 3. Requisitos de edad
 
-- La edad mínima para usar TEFI es de **13 años**.
+- La edad mínima general para usar TEFINANCE es de **13 años**.
+- **Excepción — España:** conforme a la LOPDGDD, los usuarios que se registren desde España deben tener al menos **14 años**.
 - La App verifica la edad del usuario durante la creación del perfil mediante la fecha de nacimiento proporcionada.
 - Si usted es menor de 18 años, declara que cuenta con el consentimiento de su padre, madre o tutor legal para usar la App.
-- **No recopilamos intencionalmente datos de menores de 13 años.** Si detectamos que un menor de 13 años ha creado una cuenta, la eliminaremos junto con todos los datos asociados.
-- La App **no está dirigida a niños** según la definición de la Ley de Protección de la Privacidad Infantil en Línea (COPPA) de Estados Unidos.
+- **No recopilamos intencionalmente datos de menores por debajo de la edad mínima aplicable en su país.** Si detectamos que un menor no cumple con la edad mínima correspondiente, eliminaremos su cuenta junto con todos los datos asociados.
+- La App **no está dirigida a niños** según la definición de la Ley de Protección de la Privacidad Infantil en Línea (COPPA) de Estados Unidos ni de normativas equivalentes.
 
 ---
 
@@ -63,7 +64,7 @@ Usted se compromete a:
 
 ### 4.3 Una cuenta por usuario
 
-Cada persona física puede tener una sola cuenta activa en TEFI. Nos reservamos el derecho de cerrar cuentas duplicadas.
+Cada persona física puede tener una sola cuenta activa en TEFINANCE. Nos reservamos el derecho de cerrar cuentas duplicadas.
 
 ---
 
@@ -121,7 +122,7 @@ El plan Pro ofrece acceso completo a todas las funciones, incluyendo:
 
 - Los precios se muestran en la App antes de completar la compra.
 - Los pagos se procesan exclusivamente a través de **Apple In-App Purchases** (iOS) o **Google Play Billing** (Android).
-- TEFI no procesa ni almacena datos de tarjeta de crédito ni información de pago.
+- TEFINANCE no procesa ni almacena datos de tarjeta de crédito ni información de pago.
 - Los precios pueden variar por país y están sujetos a impuestos locales.
 
 ### 7.4 Renovación automática
@@ -133,15 +134,15 @@ El plan Pro ofrece acceso completo a todas las funciones, incluyendo:
 ### 7.5 Cancelación
 
 - Puede cancelar su suscripción en cualquier momento.
-- **iOS:** Ajustes del dispositivo → Apple ID → Suscripciones → TEFI → Cancelar.
-- **Android:** Google Play Store → Menú → Suscripciones → TEFI → Cancelar.
+- **iOS:** Ajustes del dispositivo → Apple ID → Suscripciones → TEFINANCE → Cancelar.
+- **Android:** Google Play Store → Menú → Suscripciones → TEFINANCE → Cancelar.
 - La cancelación entra en vigor al final del periodo de facturación actual. Seguirá teniendo acceso a las funciones Pro hasta esa fecha.
 - La cancelación no genera reembolso proporcional del periodo en curso.
 
 ### 7.6 Reembolsos
 
 - Los reembolsos son gestionados exclusivamente por **Apple** o **Google** según sus políticas respectivas.
-- TEFI no gestiona reembolsos directamente.
+- TEFINANCE no gestiona reembolsos directamente.
 - Para solicitar un reembolso:
   - **iOS:** https://reportaproblem.apple.com
   - **Android:** A través de Google Play Store o contactando soporte de Google.
@@ -177,7 +178,7 @@ Nos reservamos el derecho de modificar los precios de las suscripciones. Los cam
 
 ### 9.1 Servicio de IA
 
-TEFI ofrece la funcionalidad de generar informes financieros personalizados mediante inteligencia artificial. Este servicio:
+TEFINANCE ofrece la funcionalidad de generar informes financieros personalizados mediante inteligencia artificial. Este servicio:
 
 - Está disponible exclusivamente para usuarios con suscripción Pro.
 - Se activa únicamente cuando el usuario lo solicita explícitamente.
@@ -191,11 +192,11 @@ TEFI ofrece la funcionalidad de generar informes financieros personalizados medi
 - **No constituyen asesoría financiera, contable, fiscal ni legal profesional.**
 - Pueden contener imprecisiones, errores o sugerencias que no se adapten a su situación particular.
 - No reemplazan la consulta con un profesional financiero certificado.
-- TEFI no se hace responsable de decisiones financieras tomadas con base en informes de IA.
+- TEFINANCE no se hace responsable de decisiones financieras tomadas con base en informes de IA.
 
 ### 9.3 Proveedores de IA
 
-Los informes pueden ser generados por diferentes proveedores de IA (Google Gemini, OpenAI, Groq, DeepSeek u otros). No autorizamos a estos proveedores a utilizar los datos de nuestros usuarios para entrenar sus modelos.
+Los informes son generados por un proveedor de inteligencia artificial ubicado en Estados Unidos. TEFINANCE se reserva el derecho de cambiar de proveedor en cualquier momento según necesidades técnicas u operativas de la plataforma. No autorizamos a estos proveedores a utilizar los datos de nuestros usuarios para entrenar sus modelos.
 
 ---
 
@@ -203,7 +204,7 @@ Los informes pueden ser generados por diferentes proveedores de IA (Google Gemin
 
 ### 10.1 Naturaleza del contenido
 
-El contenido que usted crea en TEFI (registros financieros, metas, listas, etc.) es:
+El contenido que usted crea en TEFINANCE (registros financieros, metas, listas, etc.) es:
 
 - **Privado:** Solo usted puede ver su propio contenido.
 - **Personal:** No existe funcionalidad social ni de compartir.
@@ -219,14 +220,14 @@ El contenido que usted crea en TEFI (registros financieros, metas, listas, etc.)
 
 ## 11. Propiedad intelectual
 
-### 11.1 Propiedad de TEFI
+### 11.1 Propiedad de TEFINANCE
 
 Son propiedad exclusiva del Titular y están protegidos por las leyes de propiedad intelectual:
 
 - El código fuente de la App.
 - El diseño de la interfaz de usuario (UI/UX).
-- Los logos, iconos y elementos gráficos de TEFI.
-- El nombre "TEFI" y las marcas asociadas.
+- Los logos, iconos y elementos gráficos de TEFINANCE.
+- El nombre "TEFINANCE" y las marcas asociadas.
 - Los textos, contenidos y documentación de la App.
 - Los algoritmos y lógica de negocio.
 - Los informes generados por la IA (estructura y formato, no los datos del usuario).
@@ -286,7 +287,7 @@ Nos reservamos el derecho de suspender o terminar su cuenta sin previo aviso si:
 
 - Se restringirá temporalmente el acceso a su cuenta.
 - Sus datos se conservarán durante el periodo de suspensión.
-- Puede contactarnos en soporte@tefiapp.com para apelar la decisión.
+- Puede contactarnos en amplexus.sagitta@gmail.com para apelar la decisión.
 
 ### 13.3 Efectos de la terminación
 
@@ -316,7 +317,7 @@ Nos reservamos el derecho de suspender o terminar su cuenta sin previo aviso si:
 Si tiene una suscripción activa al momento de eliminar su cuenta:
 
 - **Debe cancelar la suscripción por separado** desde los ajustes de App Store o Google Play.
-- La eliminación de la cuenta en TEFI no cancela automáticamente la suscripción con Apple/Google.
+- La eliminación de la cuenta en TEFINANCE no cancela automáticamente la suscripción con Apple/Google.
 - Si no cancela, Apple/Google pueden seguir cobrando la renovación.
 
 ---
@@ -398,14 +399,11 @@ Nos reservamos el derecho de discontinuar la App o cualquier funcionalidad en cu
 
 ### 18.1 Negociación directa
 
-Antes de iniciar cualquier procedimiento formal, las partes intentarán resolver cualquier controversia mediante negociación directa durante un periodo mínimo de 30 días naturales, comunicándose a través de soporte@tefiapp.com.
+Antes de iniciar cualquier procedimiento formal, las partes intentarán resolver cualquier controversia mediante negociación directa durante un periodo mínimo de 30 días naturales, comunicándose a través de amplexus.sagitta@gmail.com.
 
-### 18.2 Arbitraje (si aplica)
+### 18.2 Jurisdicción
 
-Si la negociación directa no resuelve el conflicto en 30 días:
-
-- Para usuarios en República Dominicana: se someterá a la jurisdicción de los tribunales ordinarios de Santo Domingo, República Dominicana.
-- Para usuarios en otros países: se intentará resolver mediante mediación o arbitraje conforme a las leyes locales del usuario, en la medida permitida por la ley aplicable.
+Si la negociación directa no resuelve el conflicto en 30 días, la controversia se someterá a la jurisdicción exclusiva de los tribunales estatales o federales ubicados en el **Estado de Nueva York, Estados Unidos**, sin perjuicio de los derechos irrenunciables que la legislación local del usuario pueda otorgarle conforme a la Sección 19.2.
 
 ### 18.3 Renuncias
 
@@ -418,7 +416,7 @@ Si la negociación directa no resuelve el conflicto en 30 días:
 
 ### 19.1 Jurisdicción principal
 
-Estos Términos se rigen por las leyes de la **República Dominicana**, sin perjuicio de las normas de conflicto de leyes.
+Estos Términos se rigen por las leyes del **Estado de Nueva York, Estados Unidos**, sin perjuicio de las normas de conflicto de leyes.
 
 ### 19.2 Leyes locales del usuario
 
@@ -484,10 +482,9 @@ Estos Términos se redactan en español. En caso de existir traducciones, la ver
 
 | Canal | Detalle |
 |-------|---------|
-| **Soporte general** | soporte@tefiapp.com |
-| **Privacidad** | privacy@tefiapp.com |
+| **Contacto general** | amplexus.sagitta@gmail.com |
 | **Sitio web** | https://tefiapp.com |
-| **País** | República Dominicana |
+| **País** | Estados Unidos |
 
 ---
 
@@ -509,8 +506,8 @@ Estos Términos se redactan en español. En caso de existir traducciones, la ver
 
 ---
 
-*Al utilizar TEFI, usted confirma que ha leído, comprendido y aceptado estos Términos y Condiciones de Uso en su totalidad.*
+*Al utilizar TEFINANCE, usted confirma que ha leído, comprendido y aceptado estos Términos y Condiciones de Uso en su totalidad.*
 
 ---
 
-*Si tiene preguntas sobre estos Términos, contáctenos en soporte@tefiapp.com.*
+*Si tiene preguntas sobre estos Términos, contáctenos en amplexus.sagitta@gmail.com.*

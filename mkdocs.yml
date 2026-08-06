@@ -1,0 +1,17 @@
+site_name: Mi Sitio Web Profesional
+site_description: Página web completa desplegada desde Markdown en GitHub.
+site_author: Tu Nombre
+
+theme:
+  name: material
+  palette:
+    primary: indigo         # Color de la barra superior (puedes usar red, green, etc.)
+    accent: indigo          # Color de enlaces y botones interactivos
+  features:
+    - navigation.tabs       # Menú en formato de pestañas superiores
+    - navigation.sections   # Agrupar subsecciones de páginas
+    - search.share          # Permitir compartir resultados de búsqueda
+
+nav:
+  - Politicas de Privacidad: index.md
+  - Terminos y Condiciones: configuracion.md

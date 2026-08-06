@@ -329,7 +329,7 @@ LA APP SE PROPORCIONA "TAL CUAL" Y "SEGÚN DISPONIBILIDAD", SIN GARANTÍAS DE NI
 
 ### 15.2 Limitaciones específicas
 
-TEFI no garantiza ni se responsabiliza de:
+TEFINANCE no garantiza ni se responsabiliza de:
 
 - La exactitud, completitud o utilidad de los informes generados por IA.
 - Decisiones financieras que usted tome basándose en la información mostrada en la App.

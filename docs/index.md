@@ -1,8 +1,8 @@
-# Política de Privacidad — TEFI
+# Política de Privacidad — TEFINANCE
 
 **Última actualización:** 6 de agosto de 2026  
 **Versión:** 1.0  
-**Aplicación:** TEFI (Finanzas Personales)  
+**Aplicación:** TEFINANCE: Tu espejo financiero (Finanzas Personales)  
 **Plataformas:** iOS (App Store) y Android (Google Play)
 
 ---
@@ -12,7 +12,7 @@
 | Campo | Detalle |
 |-------|---------|
 | **Propietario** | MBL Development (persona física) |
-| **Nombre comercial** | TEFI |
+| **Nombre comercial** | TEFINANCE |
 | **País de constitución** | República Dominicana |
 | **Correo de contacto** | soporte@tefiapp.com |
 | **Correo de privacidad** | privacy@tefiapp.com |

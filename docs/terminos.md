@@ -22,7 +22,7 @@ TEFINANCE es una herramienta de gestión de finanzas personales que permite a lo
 Al descargar, instalar, acceder o utilizar la App, usted declara que:
 
 - Ha leído, comprendido y acepta estos Términos en su totalidad.
-- Ha leído y acepta nuestra [Política de Privacidad](https://tefiapp.com/politica-de-privacidad).
+- Ha leído y acepta nuestra [Política de Privacidad](https://mbl309.github.io/TEFINANCE/privacidad/).
 - Cumple con la edad mínima aplicable en su país (**13 años** en general; **14 años** si se registra desde España — ver Sección 3).
 - Tiene la capacidad legal para celebrar este acuerdo (o cuenta con la autorización de un padre o tutor legal si es menor de 18 años).
 
@@ -468,9 +468,8 @@ El hecho de que el Titular no ejerza un derecho o disposición de estos Término
 
 Las comunicaciones oficiales del Titular se realizarán a través de:
 
-- Notificaciones dentro de la App.
 - El correo electrónico asociado a su cuenta.
-- Publicación en https://tefiapp.com.
+- Publicación en https://mbl309.github.io/TEFINANCE/.
 
 ### 21.6 Idioma
 
@@ -483,7 +482,7 @@ Estos Términos se redactan en español. En caso de existir traducciones, la ver
 | Canal | Detalle |
 |-------|---------|
 | **Contacto general** | amplexus.sagitta@gmail.com |
-| **Sitio web** | https://tefiapp.com |
+| **Sitio web** | https://mbl309.github.io/TEFINANCE/ |
 | **País** | Estados Unidos |
 
 ---

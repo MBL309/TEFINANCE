@@ -222,7 +222,7 @@ Cuando el usuario (solo suscriptores Pro) solicita activamente generar un inform
 - **iOS:** Se solicita consentimiento mediante App Tracking Transparency (ATT) antes de inicializar el SDK de publicidad. Si el usuario rechaza, no se accede al IDFA.
 - **Android:** El usuario puede resetear o desactivar su ID de publicidad desde la configuración del dispositivo.
 - No utilizamos cookies publicitarias ni publicidad personalizada.
-- No utilizamos redes publicitarias adicionales (Meta, Unity Ads, AppLovin, etc.).
+- No utilizamos redes publicitarias adicionales (Meta, Unity Ads, AppLovin, etc.), pero nos conervamos el derecho a cambiar de proveedor de publicidad.
 
 ---
 
@@ -242,7 +242,7 @@ Cuando el usuario (solo suscriptores Pro) solicita activamente generar un inform
 | Gestor de suscripciones | RevenueCat |
 | Procesador iOS | Apple In-App Purchases (App Store) |
 | Procesador Android | Google Play Billing |
-| Datos de pago | Procesados exclusivamente por Apple/Google — TEFI no almacena datos de tarjeta ni información de pago |
+| Datos de pago | Procesados exclusivamente por Apple/Google — TEFINANCE no almacena datos de tarjeta ni información de pago |
 | Renovación | Automática según el periodo seleccionado |
 | Cancelación | Desde la configuración de suscripciones de App Store / Google Play |
 | Reembolsos | Gestionados por Apple / Google según sus políticas |
@@ -289,10 +289,9 @@ Implementamos las siguientes medidas de seguridad para proteger sus datos:
 | Rate limiting | Limitación de solicitudes por defecto de Supabase |
 | Service Role protegido | Claves administrativas solo accesibles en funciones server-side |
 
-### 11.4 Medidas NO implementadas actualmente
+### 11.4 Medidas implementadas actualmente
 
-- MFA (autenticación multifactor): No disponible
-- Almacenamiento encriptado en dispositivo: Los tokens se almacenan en AsyncStorage (protección del OS pero sin encriptación adicional)
+- Implementamos medidas comerciales, técnicas y administrativas para proteger sus datos personales. Sin embargo, debido a la naturaleza abierta de internet, ningún sistema de transmisión o almacenamiento digital es 100 % seguro, por lo que no podemos garantizar la seguridad absoluta de su información.  No asumimos ninguna responsabilidad por la interceptación, alteración, uso o mal uso de la información que proporciona. Solo tú eres responsable de mantener el secreto de tu información personal. Por favor, ten cuidado al acceder al sitio web y, en general, proporciona información personal.
 
 ---
 
@@ -329,7 +328,7 @@ Independientemente de su ubicación, usted tiene los siguientes derechos sobre s
 
 **Plazo de respuesta:** Como política interna, respondemos a cualquier solicitud dentro de los 30 días naturales siguientes a su recepción, prorrogable hasta 60 días en casos complejos, notificándole previamente. Este plazo interno es más estricto que el mínimo exigido por la mayoría de las legislaciones aplicables; no obstante, **el plazo legal puede ser mayor según su jurisdicción** (por ejemplo, hasta 3 meses bajo el RGPD, o hasta 90 días bajo el CCPA/CPRA en casos que lo justifiquen).
 
-**Cómo ejercer sus derechos:** Envíe un correo a **privacy@tefiapp.com** indicando:
+**Cómo ejercer sus derechos:** Envíe un correo a **amplexus.sagitta@gmail.com* indicando:
 - Su dirección de email asociada a la cuenta
 - El derecho que desea ejercer
 - Cualquier información adicional relevante
@@ -348,7 +347,7 @@ La App **no utiliza cookies**. Como aplicación nativa, utiliza:
 | SDK de AdMob | Publicidad | ID de publicidad, métricas de anuncios |
 | SDK de RevenueCat | Suscripciones | Estado de compra, customer info |
 
-### 14.2 En el sitio web (tefiapp.com)
+### 14.2 En el sitio web 
 
 El sitio web puede utilizar cookies esenciales para su funcionamiento. No utiliza cookies de seguimiento ni analíticas de terceros.
 
@@ -365,10 +364,6 @@ Sus datos pueden ser transferidos y almacenados en servidores ubicados fuera de 
 | Apple (Auth) | Estados Unidos | Cláusulas contractuales estándar |
 | RevenueCat | Estados Unidos | Cláusulas contractuales estándar (no forma parte del listado oficial de participantes del DPF) |
 | Proveedor de IA | Estados Unidos (proveedor actual, sujeto a cambio — ver 8.3) | Cláusulas contractuales estándar |
-
-De los proveedores utilizados, únicamente **Google** cuenta con certificación activa en el EU-U.S. Data Privacy Framework. Supabase y RevenueCat no forman parte del listado oficial de participantes del DPF y se apoyan en cláusulas contractuales estándar (SCC) como mecanismo de cumplimiento con el RGPD.
-
-Nos aseguramos de que todas las transferencias internacionales se realicen con salvaguardas adecuadas conforme a la legislación aplicable.
 
 ---
 
@@ -453,30 +448,7 @@ La App actualmente **no utiliza notificaciones push**. Si en el futuro se implem
 
 ---
 
-## 20. Información específica para App Store y Google Play
-
-### 20.1 Resumen de recopilación de datos
-
-| Pregunta | Respuesta |
-|----------|-----------|
-| ¿Qué datos recopila la app? | Email, fecha de nacimiento, datos financieros ingresados por el usuario, ID de publicidad, datos de transacción de suscripción |
-| ¿Por qué los recopila? | Para proporcionar el servicio de gestión financiera, autenticación, publicidad (Free), y suscripciones |
-| ¿Cómo se protegen? | HTTPS/TLS, JWT, OAuth, RLS, validación Zod, queries parametrizadas |
-| ¿Con quién se comparten? | Supabase (backend), Google AdMob (publicidad), RevenueCat (suscripciones), proveedor de IA (solo Pro, solo datos financieros, ubicado en EE.UU. y sujeto a cambio) |
-| ¿Se usan para publicidad? | Solo ID de publicidad para anuncios NO personalizados (usuarios Free) |
-| ¿Se venden datos? | **No, nunca** |
-| ¿Cómo eliminar la cuenta? | Perfil → "Eliminar cuenta" (inmediato y automatizado) |
-| ¿Cómo eliminar los datos? | Se eliminan automáticamente al eliminar la cuenta |
-| ¿Qué permisos solicita? | Internet, ATT (iOS). No solicita cámara, ubicación, contactos, etc. |
-| ¿Verifica la edad del usuario? | Sí, requiere fecha de nacimiento y valida la edad mínima aplicable según el país (13 años en general, 14 en España) |
-| ¿Utiliza inteligencia artificial? | Sí, para generar informes financieros (solo Pro, activado por el usuario, proveedor ubicado en EE.UU. y sujeto a cambio) |
-| ¿Utiliza servicios de terceros? | Sí: Supabase, Google AdMob, Google/Apple OAuth, RevenueCat, proveedor IA |
-| ¿Usa notificaciones push? | No |
-| ¿Realiza pagos o suscripciones? | Sí, via Apple IAP / Google Play Billing (gestionado por RevenueCat) |
-
----
-
-## 21. Contacto de privacidad
+## 20. Contacto de privacidad
 
 Para cualquier consulta, solicitud o queja relacionada con la privacidad de sus datos:
 
@@ -484,12 +456,12 @@ Para cualquier consulta, solicitud o queja relacionada con la privacidad de sus 
 |-------|---------|
 | **Email de privacidad** | amplexus.sagitta@gmail.com |
 | **Email de soporte** | amplexus.sagitta@gmail.com |
-| **Sitio web** | https://tefiapp.com |
+| **Sitio web** | https://mbl309.github.io/TEFINANCE/ |
 | **Plazo de respuesta** | Política interna: hasta 60 días naturales; el plazo legal puede ser mayor según su jurisdicción (ver Sección 13) |
 
 ---
 
-## 22. Cambios a esta política
+## 21. Cambios a esta política
 
 Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Cuando realicemos cambios materiales:
 
@@ -503,9 +475,9 @@ Le recomendamos revisar esta política periódicamente.
 
 ---
 
-## 23. Consentimiento
+## 22. Consentimiento
 
-Al crear una cuenta en TEFI, usted declara que:
+Al crear una cuenta en TEFINANCE, usted declara que:
 
 - Ha leído y comprendido esta Política de Privacidad.
 - Acepta el tratamiento de sus datos personales conforme a lo descrito.
@@ -514,4 +486,4 @@ Al crear una cuenta en TEFI, usted declara que:
 
 ---
 
-*Si tiene preguntas sobre esta política, contáctenos en privacy@tefiapp.com.*
+*Si tiene preguntas sobre esta política, contáctenos en amplexus.sagitta@gmail.com*

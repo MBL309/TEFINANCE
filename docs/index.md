@@ -2,7 +2,8 @@
 
 **Tus finanzas personales, organizadas en un solo lugar.**
 
-![Captura de pantalla de la app TEFINANCE](../assets/iphone.png)
+![Captura de pantalla de la app TEFINANCE](./asssets/iphone.jpg){ .phone-image }
+![Captura de pantalla de la app TEFINANCE](./asssets/suscripcion.png){ .phone-image }
 
 TEFINANCE es una aplicación de finanzas personales para iOS y Android que te ayuda a entender y controlar tu dinero, sin complicaciones.
 

@@ -12,6 +12,10 @@ theme:
     - navigation.sections   # Agrupar subsecciones de páginas
     - search.share          # Permitir compartir resultados de búsqueda
 
+markdown_extensions:
+  - attr_list
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Inicio: index.md
   - Política de Privacidad: privacidad.md

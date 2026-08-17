@@ -1,8 +1,12 @@
 <div class="tf-hero" markdown>
 
-# Finanzas personales · iOS & Android
+# TEFINANCE
 
-Registra, presupuesta y da seguimiento a tu dinero desde un solo lugar — sin hojas de cálculo, sin complicaciones.
+**Finanzas personales para iOS y Android**
+
+Registra, presupuesta y da seguimiento a tu dinero desde un solo lugar, sin hojas de cálculo y sin complicaciones.
+
+</div>
 
 <div class="tf-hero-shots" markdown>
 ![Captura de pantalla de la app TEFINANCE](./assets/iphone.jpg){ .phone-image style="width:150px" }
@@ -11,7 +15,7 @@ Registra, presupuesta y da seguimiento a tu dinero desde un solo lugar — sin h
 
 </div>
 
-TEFINANCE es una aplicación de finanzas personales para iOS y Android, desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos, operada por una persona física), que te ayuda a entender y controlar tu dinero, sin complicaciones.
+El proposito de TEFINANCE es una aplicación de finanzas personales para iOS y Android, desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos, operada por una persona física), que te ayuda a entender y controlar tu dinero, sin complicaciones.
 
 <div class="tf-rule"><span>Funciones</span></div>
 

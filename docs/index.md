@@ -13,7 +13,7 @@
 
 </div>
 
-Desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos, operada por una persona física).
+Desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos).
 
 <div class="tf-rule"><span>Funciones</span></div>
 

@@ -2,11 +2,8 @@
 
 # TEFINANCE
 
-**Finanzas personales para iOS y Android**
+**Aplicación de finanzas personales para iOS y Android**
 
-Registra, presupuesta y da seguimiento a tu dinero desde un solo lugar, sin hojas de cálculo y sin complicaciones.
-
-</div>
 
 <div class="tf-hero-shots" markdown>
 ![Captura de pantalla de la app TEFINANCE](./assets/iphone.jpg){ .phone-image style="width:150px" }

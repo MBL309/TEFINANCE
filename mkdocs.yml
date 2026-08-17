@@ -4,6 +4,8 @@ site_author: MBL Development
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   palette:
     primary: indigo         # Color de la barra superior (puedes usar red, green, etc.)
     accent: indigo          # Color de enlaces y botones interactivos
@@ -14,8 +16,13 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html 
+
 extra_css:
-  - stylesheets/extra.css
+  - assets/extra.css
+
+site_url: https://amplexusagitta.com
+
 nav:
   - Inicio: index.md
   - Política de Privacidad: privacidad.md

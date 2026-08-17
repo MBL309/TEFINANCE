@@ -1,0 +1,264 @@
+.phone-image {
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.15);
+}
+/* ============================================================
+   TEFINANCE — theme tokens
+   Paleta: verde bosque profundo (confianza/orden) sobre blanco
+   casi frío, con un ámbar contenido solo para el plan Pro.
+   Tipografía: Space Grotesk (títulos), Inter (cuerpo),
+   IBM Plex Mono (montos y datos numéricos).
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+:root {
+  --tf-bg: #F6F7F5;
+  --tf-surface: #FFFFFF;
+  --tf-ink: #10161A;
+  --tf-ink-soft: #4B5A57;
+  --tf-primary: #14453A;
+  --tf-primary-soft: #EAF1EE;
+  --tf-mint: #3FA787;
+  --tf-pro: #C98A3B;
+  --tf-pro-soft: #FBF1E3;
+  --tf-line: #DDE3E0;
+
+  --tf-display: 'Space Grotesk', system-ui, sans-serif;
+  --tf-body: 'Inter', system-ui, sans-serif;
+  --tf-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+[data-md-color-scheme="slate"] {
+  --tf-bg: #0E1512;
+  --tf-surface: #16201C;
+  --tf-ink: #ECF2EF;
+  --tf-ink-soft: #A7B6B0;
+  --tf-primary: #6FCBAA;
+  --tf-primary-soft: #1B2A24;
+  --tf-mint: #6FCBAA;
+  --tf-line: #263229;
+}
+
+.md-main, body {
+  background: var(--tf-bg);
+  font-family: var(--tf-body);
+  color: var(--tf-ink);
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  font-family: var(--tf-display);
+  letter-spacing: -0.01em;
+  color: var(--tf-ink);
+}
+
+.md-content h1 { display: none; } /* reemplazado por .tf-hero */
+
+.md-typeset { line-height: 1.65; }
+
+/* ------------------------------------------------------------
+   Ledger rule — divisor de firma: una regla fina con una
+   marca de verificación, como el trazo de un libro contable.
+   ------------------------------------------------------------ */
+.tf-rule {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 3.5rem 0;
+  color: var(--tf-mint);
+}
+.tf-rule::before,
+.tf-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--tf-line);
+}
+.tf-rule::after { display: none; }
+.tf-rule span {
+  font-family: var(--tf-mono);
+  font-size: .7rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--tf-ink-soft);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------
+   Hero — título + subtítulo centrados, capturas pequeñas y
+   separadas debajo (nunca superpuestas al texto).
+   ------------------------------------------------------------ */
+.tf-hero {
+  text-align: center;
+  max-width: 46ch;
+  margin: 0 auto;
+  padding: 2.5rem 0 .5rem;
+}
+.tf-hero h1 {
+  font-family: var(--tf-display);
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 .9rem;
+  color: var(--tf-ink);
+}
+.tf-hero p {
+  font-size: 1.05rem;
+  color: var(--tf-ink-soft);
+  margin: 0 auto;
+}
+
+.tf-hero-shots {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.75rem;
+  margin: 2.25rem 0 2.75rem;
+}
+.tf-hero-shots img.phone-image {
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  .tf-hero h1 { font-size: 1.85rem; }
+  .tf-hero-shots { gap: 1rem; margin: 1.75rem 0 2.25rem; }
+}
+
+/* ------------------------------------------------------------
+   Section heading
+   ------------------------------------------------------------ */
+.tf-section-title {
+  font-family: var(--tf-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+
+/* ------------------------------------------------------------
+   Feature grid
+   ------------------------------------------------------------ */
+.tf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.tf-card {
+  background: var(--tf-surface);
+  border: 1px solid var(--tf-line);
+  border-radius: 14px;
+  padding: 1.25rem 1.4rem;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.tf-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(16,22,26,.06);
+  border-color: var(--tf-mint);
+}
+.tf-card-icon {
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+  display: block;
+}
+.tf-card h3 {
+  font-size: 1rem;
+  margin: 0 0 .35rem;
+}
+.tf-card p {
+  margin: 0;
+  font-size: .92rem;
+  color: var(--tf-ink-soft);
+}
+.tf-card.tf-card-pro {
+  background: var(--tf-pro-soft);
+  border-color: #EAD3AC;
+}
+.tf-card-badge {
+  display: inline-block;
+  font-family: var(--tf-mono);
+  font-size: .65rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--tf-pro);
+  background: #FFFFFF;
+  border: 1px solid #EAD3AC;
+  border-radius: 999px;
+  padding: .15rem .55rem;
+  margin-bottom: .6rem;
+}
+
+@media (max-width: 780px) {
+  .tf-grid { grid-template-columns: 1fr; }
+}
+
+/* ------------------------------------------------------------
+   Pricing table -> tarjetas comparativas
+   Reestiliza la tabla markdown estándar sin cambiar su sintaxis.
+   ------------------------------------------------------------ */
+.tf-pricing table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--tf-surface);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--tf-line);
+  box-shadow: 0 1px 0 rgba(16,22,26,.02);
+}
+.tf-pricing thead th {
+  font-family: var(--tf-display);
+  font-weight: 600;
+  font-size: .95rem;
+  background: var(--tf-surface);
+  padding: 1rem .9rem;
+  border-bottom: 1px solid var(--tf-line);
+}
+.tf-pricing thead th:not(:first-child) {
+  text-align: center;
+}
+.tf-pricing thead th:last-child {
+  color: var(--tf-pro);
+}
+.tf-pricing tbody td {
+  padding: .85rem .9rem;
+  border-bottom: 1px solid var(--tf-line);
+  font-size: .92rem;
+  color: var(--tf-ink-soft);
+}
+.tf-pricing tbody tr:last-child td { border-bottom: none; }
+.tf-pricing tbody td:not(:first-child) {
+  text-align: center;
+  font-family: var(--tf-mono);
+}
+.tf-pricing tbody td:first-child { color: var(--tf-ink); }
+
+/* ------------------------------------------------------------
+   Nota / caja de privacidad
+   ------------------------------------------------------------ */
+.tf-note {
+  background: var(--tf-primary-soft);
+  border: 1px solid var(--tf-line);
+  border-left: 3px solid var(--tf-primary);
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+  font-size: .95rem;
+  color: var(--tf-ink-soft);
+}
+.tf-note strong { color: var(--tf-ink); }
+.tf-note a { color: var(--tf-primary); font-weight: 600; }
+
+/* ------------------------------------------------------------
+   Footer CTA
+   ------------------------------------------------------------ */
+.tf-footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  color: var(--tf-ink-soft);
+  font-size: .95rem;
+}
+.tf-footer a {
+  font-family: var(--tf-mono);
+  color: var(--tf-primary);
+}

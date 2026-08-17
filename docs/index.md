@@ -1,9 +1,10 @@
 <div class="tf-hero" markdown>
 
+<p class="tf-eyebrow">iOS &amp; Android</p>
+
 # TEFINANCE
 
-**Aplicación de finanzas personales para iOS y Android**
-
+**TEFINANCE es una aplicación de finanzas personales para iOS y Android** que te ayuda a registrar tus ingresos y gastos, crear presupuestos, dar seguimiento a deudas e inversiones, y establecer metas de ahorro — todo desde un solo lugar, sin hojas de cálculo ni complicaciones.
 
 <div class="tf-hero-shots" markdown>
 ![Captura de pantalla de la app TEFINANCE](./assets/iphone.jpg){ .phone-image style="width:150px" }
@@ -12,7 +13,7 @@
 
 </div>
 
-El proposito de TEFINANCE es una aplicación de finanzas personales para iOS y Android, desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos, operada por una persona física), que te ayuda a entender y controlar tu dinero, sin complicaciones.
+Desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos, operada por una persona física).
 
 <div class="tf-rule"><span>Funciones</span></div>
 
@@ -87,7 +88,7 @@ Las suscripciones al plan Pro se gestionan a través de RevenueCat y de las tien
 TEFINANCE solo solicita la información necesaria para ofrecer sus funciones. No pedimos acceso a tu cámara, ubicación, contactos ni fotos, porque ninguna función de la app los necesita.
 
 - **Cuenta y autenticación** (Supabase, e inicio de sesión con Google o Apple): para crear tu cuenta, identificarte de forma segura y sincronizar tus datos entre dispositivos.
-- **Datos financieros que tú registras** (ingresos, gastos, presupuestos, metas, deudas, inversiones): para mostrarte tus reportes y seguimiento dentro de la app. En el plan Pro, estos mismos datos se envían a un proveedor de IA configurable (Google Gemini, OpenAI, Groq según disponibilidad) únicamente para generar tus informes financieros bajo pedido.
+- **Datos financieros que tú registras** (ingresos, gastos, presupuestos, metas, deudas, inversiones): para mostrarte tus reportes y seguimiento dentro de la app. En el plan Pro, estos mismos datos se envían a un proveedor de IA configurable (Google Gemini, OpenAI, Groq o DeepSeek, según disponibilidad) únicamente para generar tus informes financieros bajo pedido.
 - **Información de suscripción** (RevenueCat): para validar y administrar tu plan Free o Pro.
 - **Identificador de publicidad** (Google AdMob, solo en el plan Free): para mostrar anuncios dentro de la app. El plan Pro elimina la publicidad.
 

@@ -55,8 +55,6 @@
   color: var(--tf-ink);
 }
 
-.md-content h1 { display: none; } /* reemplazado por .tf-hero */
-
 .md-typeset { line-height: 1.65; }
 
 /* ------------------------------------------------------------

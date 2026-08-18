@@ -30,7 +30,7 @@ Al crear una cuenta o utilizar la App, usted acepta las prácticas descritas en 
 
 ## 3. Descripción de la aplicación
 
-TEFINANCE es una aplicación de finanzas personales que permite a los usuarios:
+TEFINANCE es una aplicación de gestión de las finanzas personales que permite a los usuarios:
 
 - Registrar ingresos y gastos
 - Crear y gestionar presupuestos

@@ -4,7 +4,7 @@
 
 # TEFINANCE
 
-**TEFINANCE es una aplicación de finanzas personales para iOS y Android** que te ayuda a registrar tus ingresos y gastos, crear presupuestos, dar seguimiento a deudas e inversiones, y establecer metas de ahorro — todo desde un solo lugar, sin hojas de cálculo ni complicaciones.
+**TEFINANCE es una aplicación de gestión de las finanzas personales para iOS y Android** que te ayuda a registrar tus ingresos y gastos, crear presupuestos, dar seguimiento a deudas e inversiones, y establecer metas de ahorro — todo desde un solo lugar, sin hojas de cálculo ni complicaciones.
 
 <div class="tf-hero-shots" markdown>
 ![Captura de pantalla de la app TEFINANCE](./assets/iphone.jpg){ .phone-image style="width:150px" }
@@ -13,7 +13,7 @@
 
 </div>
 
-Desarrollada por **MBL Development** (entidad responsable ubicada en Estados Unidos).
+Desarrollada por **Michell Benzant** (entidad responsable ubicada en Estados Unidos).
 
 <div class="tf-rule"><span>Funciones</span></div>
 

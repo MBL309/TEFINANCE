@@ -58,7 +58,7 @@ Planifica compras y ve cómo impactan el presupuesto de la categoría correspond
 
 <div class="tf-card tf-card-pro" markdown>
 <span class="tf-card-badge">Pro</span>
-### Informes con IA
+### Analisis de finanzas personales.
 A partir de tus propios datos financieros, un proveedor de IA configurable genera un resumen y recomendaciones sobre tu situación.
 </div>
 </div>
@@ -78,7 +78,7 @@ A partir de tus propios datos financieros, un proveedor de IA configurable gener
 
 </div>
 
-Las suscripciones al plan Pro se gestionan a través de RevenueCat y de las tiendas de aplicaciones (App Store / Google Play).
+Las suscripciones al plan Pro se gestionan a través de las tiendas de aplicaciones (App Store / Google Play).
 
 <div class="tf-rule"><span>Privacidad</span></div>
 
@@ -88,7 +88,7 @@ Las suscripciones al plan Pro se gestionan a través de RevenueCat y de las tien
 TEFINANCE solo solicita la información necesaria para ofrecer sus funciones. No pedimos acceso a tu cámara, ubicación, contactos ni fotos, porque ninguna función de la app los necesita.
 
 - **Cuenta y autenticación** (Supabase, e inicio de sesión con Google o Apple): para crear tu cuenta, identificarte de forma segura y sincronizar tus datos entre dispositivos.
-- **Datos financieros que tú registras** (ingresos, gastos, presupuestos, metas, deudas, inversiones): para mostrarte tus reportes y seguimiento dentro de la app. En el plan Pro, estos mismos datos se envían a un proveedor de IA configurable (Google Gemini, OpenAI, Groq o DeepSeek, según disponibilidad) únicamente para generar tus informes financieros bajo pedido.
+- **Datos financieros que tú registras** (ingresos, gastos, presupuestos, metas, deudas, inversiones): para mostrarte tus reportes y seguimiento dentro de la app. En el plan Pro, estos mismos datos se envían a un proveedor de IA configurable (Google Gemini, OpenAI, según disponibilidad) únicamente para generar tus informes financieros bajo pedido.
 - **Información de suscripción** (RevenueCat): para validar y administrar tu plan Free o Pro.
 - **Identificador de publicidad** (Google AdMob, solo en el plan Free): para mostrar anuncios dentro de la app. El plan Pro elimina la publicidad.
 

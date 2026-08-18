@@ -1,8 +1,8 @@
 # Política de Privacidad — TEFINANCE
 
-**Última actualización:** 6 de agosto de 2026  
-**Versión:** 1.1  
-**Aplicación:** TEFINANCE (Finanzas Personales)  
+**Última actualización:** 18 de agosto de 2026  
+**Versión:** 1.0.0
+**Aplicación:** TEFINANCE 
 **Plataformas:** iOS (App Store) y Android (Google Play)
 
 ---
@@ -11,12 +11,12 @@
 
 | Campo | Detalle |
 |-------|---------|
-| **Propietario** | MBL Development (persona física) |
+| **Propietario** | Michell Benzant (persona física) |
 | **Nombre comercial** | TEFINANCE |
 | **País de constitución** | Estados Unidos |
 | **Correo de contacto** | amplexus.sagitta@gmail.com|
 | **Correo de privacidad** | amplexus.sagitta@gmail.com |
-| **Sitio web** | https://mbl309.github.io/TEFINANCE/ |
+| **Sitio web** | https://amplexusagitta.com/ |
 
 ---
 
@@ -38,7 +38,7 @@ TEFINANCE es una aplicación de finanzas personales que permite a los usuarios:
 - Administrar tarjetas de crédito y préstamos
 - Hacer seguimiento de inversiones y fondos de emergencia
 - Crear listas de compras
-- Generar informes financieros con inteligencia artificial (solo usuarios Pro)
+- Generar analisis de finanzas personales con inteligencia artificial (solo usuarios Pro)
 
 **Público objetivo:** Personas mayores de 13 años interesadas en gestionar sus finanzas personales (sujeto a excepciones por país — ver Sección 17).  
 **Edad mínima:** 13 años, con excepciones por país donde la ley exige una edad mayor (ver Sección 17). La App verifica la edad del usuario durante el registro.  
@@ -87,18 +87,23 @@ La App ofrece los siguientes métodos de autenticación:
 
 ### 5.3 Datos financieros (proporcionados por el usuario)
 
-| Dato | Finalidad | Base legal |
-|------|-----------|-----------|
-| Ingresos (monto, tipo, descripción, fecha) | Registro y gestión financiera | Ejecución del contrato |
-| Presupuestos (categoría, montos, periodo) | Gestión de presupuestos | Ejecución del contrato |
-| Metas de ahorro (título, monto objetivo, plazo) | Seguimiento de objetivos financieros | Ejecución del contrato |
-| Tarjetas de crédito (nombre, límite, saldo, tasa) | Gestión de deuda | Ejecución del contrato |
-| Préstamos (monto, tasa, cuota, plazo) | Gestión de deuda | Ejecución del contrato |
-| Inversiones (tipo, monto, rendimiento) | Gestión de patrimonio | Ejecución del contrato |
-| Fondos de emergencia (monto, meta) | Gestión de ahorro | Ejecución del contrato |
-| Listas de compras (items) | Organización de gastos | Ejecución del contrato |
+| Dato                                                                                   | Finalidad                                                                      | Base legal             |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------- |
+| **Ingresos** (monto, tipo, descripción y fecha)                                        | Registro, organización y análisis de los ingresos del usuario                  | Ejecución del contrato |
+| **Gastos** (monto, categoría, descripción y fecha)                                     | Registro, categorización y análisis de los gastos                              | Ejecución del contrato |
+| **Presupuestos** (categoría, monto y período)                                          | Creación, seguimiento y análisis de presupuestos                               | Ejecución del contrato |
+| **Metas de ahorro** (título, monto objetivo y plazo)                                   | Creación y seguimiento de objetivos financieros personales                     | Ejecución del contrato |
+| **Tarjetas de crédito** (nombre, límite, saldo y tasa, cuando el usuario los registra) | Seguimiento y organización de obligaciones de crédito                          | Ejecución del contrato |
+| **Préstamos** (monto, tasa, cuota y plazo, cuando el usuario los registra)             | Seguimiento y organización de obligaciones de deuda                            | Ejecución del contrato |
+| **Inversiones** (tipo, monto y rendimiento, cuando el usuario los registra)            | Registro y seguimiento de información patrimonial proporcionada por el usuario | Ejecución del contrato |
+| **Fondos de emergencia** (monto y meta)                                                | Seguimiento de objetivos de ahorro y reservas personales                       | Ejecución del contrato |
+| **Listas de compras** (artículos y cantidades, cuando corresponda)                     | Organización y planificación de compras y gastos                               | Ejecución del contrato |
 
 **Nota importante:** TEFINANCE no solicita ni almacena números de cuenta bancaria, números de tarjeta completos, CVV, contraseñas bancarias ni credenciales de acceso a instituciones financieras.
+
+La información financiera introducida por el usuario es utilizada para proporcionar las funcionalidades de gestión y análisis disponibles en TEFINANCE. La aplicación no requiere que el usuario proporcione credenciales bancarias para registrar manualmente esta información.
+
+Uso de los datos para análisis: Los datos financieros registrados por el usuario pueden ser procesados para generar cálculos, resúmenes e indicadores sobre ingresos, gastos, presupuestos, deudas, patrimonio, flujo de caja y metas financieras. Cuando TEFINANCE utilice funciones automatizadas de análisis, estas se basan en la información proporcionada por el usuario y están destinadas a ayudarle a comprender y organizar su información financiera personal.
 
 ### 5.4 Datos recopilados automáticamente
 
@@ -155,7 +160,7 @@ Utilizamos sus datos personales para los siguientes fines:
 | Autenticación e inicio de sesión | Email, tokens OAuth | Ejecución del contrato |
 | Proporcionar el servicio de gestión financiera | Todos los datos financieros | Ejecución del contrato |
 | Personalizar la experiencia | Personalidad financiera, moneda, preferencias | Consentimiento |
-| Generar informes con IA (solo Pro) | Datos financieros completos | Consentimiento (acción del usuario) |
+| Generar analisis de finanzas personales. (solo Pro) | Datos financieros completos | Consentimiento (acción del usuario) |
 | Gestionar suscripciones | ID de usuario, datos de transacción | Ejecución del contrato |
 | Mostrar publicidad no personalizada (solo Free) | ID de publicidad, info del dispositivo | Consentimiento (ATT) / Interés legítimo |
 | Verificar la edad del usuario | Fecha de nacimiento | Obligación legal |
@@ -186,7 +191,7 @@ Utilizamos sus datos personales para los siguientes fines:
 
 ### 8.3 Datos enviados a la IA
 
-Cuando el usuario (solo suscriptores Pro) solicita activamente generar un informe financiero:
+Cuando el usuario (solo suscriptores Pro) solicita activamente generar un analisis de sus datos financieros introducidos por el usuario:
 
 - **Qué se envía:** Datos financieros del usuario (ingresos, presupuestos, tarjetas, préstamos, metas, inversiones, fondos) en formato JSON. **No se envían** email, nombre, fecha de nacimiento ni identificadores personales.
 - **Cómo se envía:** Server-side desde una Edge Function segura (no directamente desde el dispositivo).
@@ -194,7 +199,7 @@ Cuando el usuario (solo suscriptores Pro) solicita activamente generar un inform
 - **Cambio de proveedor:** TEFINANCE se reserva el derecho de cambiar de proveedor de inteligencia artificial en cualquier momento según las necesidades técnicas u operativas de la plataforma. En caso de incorporar un proveedor ubicado fuera de Estados Unidos o del Espacio Económico Europeo, actualizaremos esta política para reflejar las salvaguardas específicas aplicables (cláusulas contractuales estándar, decisión de adecuación u otro mecanismo válido) antes de activar dicho proveedor.
 - **Almacenamiento:** Los proveedores de IA pueden almacenar temporalmente los datos según sus propias políticas. Consulte las políticas de privacidad del proveedor específico.
 - **Entrenamiento:** No autorizamos a ningún proveedor a usar los datos de nuestros usuarios para entrenar modelos de IA.
-- **Control del usuario:** El usuario inicia activamente cada generación de informe. No se envían datos automáticamente.
+- **Control del usuario:** El usuario inicia activamente cada generación de analisis. No se envían datos automáticamente.
 
 ---
 
@@ -304,7 +309,7 @@ Implementamos las siguientes medidas de seguridad para proteger sus datos:
 | Tokens de sesión | Hasta cierre de sesión o expiración | Eliminados automáticamente |
 | Logs de errores (server-side) | Máximo 90 días | Eliminados automáticamente |
 | Datos de suscripción | Mientras la cuenta esté activa + periodo requerido por ley fiscal | Eliminados tras periodo legal |
-| Informes de IA generados | Mientras la cuenta esté activa | Eliminados al eliminar la cuenta |
+| Analisis de IA generados | Mientras la cuenta esté activa | Eliminados al eliminar la cuenta |
 | Copias de seguridad del servidor | Máximo 30 días | Rotación automática |
 
 **Eliminación de cuenta:** Al eliminar su cuenta, todos sus datos personales son eliminados de forma inmediata y permanente de nuestros sistemas activos. Las copias de seguridad automáticas del servidor se eliminan dentro de los 30 días siguientes a su rotación natural.
@@ -431,14 +436,14 @@ Esta política se rige por y cumple con:
 
 ### 18.3 Almacenamiento y entrenamiento
 
-- Los informes generados se almacenan en nuestra base de datos mientras la cuenta esté activa
+- Los analisis generados se almacenan en nuestra base de datos mientras la cuenta esté activa
 - **No autorizamos** a los proveedores de IA a usar los datos de nuestros usuarios para entrenar sus modelos
 - La retención de datos por parte del proveedor de IA está sujeta a sus propias políticas (generalmente temporal para procesamiento)
 - Si el proveedor de IA cambia a uno ubicado fuera de Estados Unidos o del Espacio Económico Europeo, actualizaremos esta política antes de activar dicho proveedor (ver 8.3)
 
 ### 18.4 Disclaimer
 
-Los informes generados con IA son orientativos y no constituyen asesoría financiera profesional. No deben tomarse como un informe financiero oficial.
+Los analisis generados con IA son orientativos y no constituyen asesoría financiera profesional. No deben tomarse como un informe financiero oficial.
 
 ---
 
@@ -456,7 +461,7 @@ Para cualquier consulta, solicitud o queja relacionada con la privacidad de sus 
 |-------|---------|
 | **Email de privacidad** | amplexus.sagitta@gmail.com |
 | **Email de soporte** | amplexus.sagitta@gmail.com |
-| **Sitio web** | https://mbl309.github.io/TEFINANCE/ |
+| **Sitio web** | https://amplexusagitta.com/ |
 | **Plazo de respuesta** | Política interna: hasta 60 días naturales; el plazo legal puede ser mayor según su jurisdicción (ver Sección 13) |
 
 ---
@@ -466,7 +471,7 @@ Para cualquier consulta, solicitud o queja relacionada con la privacidad de sus 
 Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Cuando realicemos cambios materiales:
 
 1. **Notificación dentro de la App** — se mostrará un aviso al usuario al iniciar sesión.
-2. **Actualización en el sitio web** — la versión más reciente siempre estará disponible en https://mbl309.github.io/TEFINANCE/.
+2. **Actualización en el sitio web** — la versión más reciente siempre estará disponible en https://amplexusagitta.com/.
 3. **Cambio de fecha** — la fecha de "Última actualización" al inicio de este documento se actualizará.
 
 Para cambios sustanciales que afecten cómo utilizamos sus datos, solicitaremos su consentimiento nuevamente si es requerido por la legislación aplicable.

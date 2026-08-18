@@ -1,15 +1,15 @@
 # Términos y Condiciones de Uso — TEFINANCE
 
-**Última actualización:** 6 de agosto de 2026  
-**Versión:** 1.1  
-**Aplicación:** TEFINANCE (Finanzas Personales)  
+**Última actualización:** 18 de agosto de 2026  
+**Versión:** 1.0.0 
+**Aplicación:** TEFINANCE 
 **Plataformas:** iOS (App Store) y Android (Google Play)
 
 ---
 
 ## 1. Objeto del servicio
 
-Los presentes Términos y Condiciones (en adelante, "Términos") regulan el acceso y uso de la aplicación móvil TEFINANCE (en adelante, "la App" o "el Servicio"), desarrollada y operada por MBL Development (en adelante, "el Titular", "nosotros", "nuestro"), con domicilio en Estados Unidos.
+Los presentes Términos y Condiciones (en adelante, "Términos") regulan el acceso y uso de la aplicación móvil TEFINANCE (en adelante, "la App" o "el Servicio"), desarrollada y operada por Michell Benzant (en adelante, "el Titular", "nosotros", "nuestro"), con domicilio en Estados Unidos.
 
 TEFINANCE es una herramienta de gestión de finanzas personales que permite a los usuarios registrar ingresos, crear presupuestos, establecer metas de ahorro, administrar deudas (tarjetas de crédito y préstamos), dar seguimiento a inversiones y fondos de emergencia, crear listas de compras, y generar informes financieros con inteligencia artificial.
 
@@ -22,7 +22,7 @@ TEFINANCE es una herramienta de gestión de finanzas personales que permite a lo
 Al descargar, instalar, acceder o utilizar la App, usted declara que:
 
 - Ha leído, comprendido y acepta estos Términos en su totalidad.
-- Ha leído y acepta nuestra [Política de Privacidad](https://mbl309.github.io/TEFINANCE/privacidad/).
+- Ha leído y acepta nuestra [Política de Privacidad](https://amplexusagitta.com/privacidad/).
 - Cumple con la edad mínima aplicable en su país (**13 años** en general; **14 años** si se registra desde España — ver Sección 3).
 - Tiene la capacidad legal para celebrar este acuerdo (o cuenta con la autorización de un padre o tutor legal si es menor de 18 años).
 
@@ -72,9 +72,9 @@ Cada persona física puede tener una sola cuenta activa en TEFINANCE. Nos reserv
 
 Al utilizar la App, usted se compromete a:
 
-- Usar la App únicamente para fines personales y lícitos de gestión financiera.
+- Usar la App únicamente para fines personales y lícitos de gestión financiera personal.
 - No utilizar la App con fines comerciales, profesionales o para terceros sin autorización.
-- Proporcionar información financiera veraz (la App no verifica la exactitud de los datos ingresados).
+- Proporcionar información financiera personal veraz (la App no verifica la exactitud de los datos ingresados).
 - Cumplir con todas las leyes y regulaciones aplicables en su jurisdicción.
 - No intentar acceder a datos de otros usuarios.
 - No realizar ingeniería inversa, descompilar ni desensamblar la App.
@@ -94,7 +94,7 @@ Queda expresamente prohibido:
 - Usar la App para actividades fraudulentas, de lavado de dinero o financiamiento ilícito.
 - Manipular o intentar manipular el sistema de suscripciones para obtener acceso no autorizado a funciones Pro.
 - Compartir credenciales de acceso con terceros.
-- Automatizar el uso de funciones de IA para generar informes masivos.
+- Automatizar el uso de funciones de IA para generar analisis masivos.
 - Revender, redistribuir o sublicenciar el acceso a la App.
 - Interferir con el funcionamiento normal de la App para otros usuarios.
 
@@ -115,7 +115,7 @@ La App ofrece un plan gratuito con las siguientes características:
 El plan Pro ofrece acceso completo a todas las funciones, incluyendo:
 
 - Todas las funciones sin limitaciones.
-- Generación de informes financieros con inteligencia artificial.
+- Generación de analisis financieros personales con los datos sumnistrados por el usuario con inteligencia artificial.
 - Experiencia sin publicidad.
 
 ### 7.3 Precios y pagos
@@ -178,7 +178,7 @@ Nos reservamos el derecho de modificar los precios de las suscripciones. Los cam
 
 ### 9.1 Servicio de IA
 
-TEFINANCE ofrece la funcionalidad de generar informes financieros personalizados mediante inteligencia artificial. Este servicio:
+TEFINANCE ofrece la funcionalidad de generar analisis financieros personalizados mediante inteligencia artificial. Este servicio:
 
 - Está disponible exclusivamente para usuarios con suscripción Pro.
 - Se activa únicamente cuando el usuario lo solicita explícitamente.
@@ -188,15 +188,15 @@ TEFINANCE ofrece la funcionalidad de generar informes financieros personalizados
 
 ### 9.2 Limitaciones de la IA
 
-- Los informes generados por IA son **orientativos y no vinculantes**.
+- Los analisis generados por IA son **orientativos y no vinculantes**.
 - **No constituyen asesoría financiera, contable, fiscal ni legal profesional.**
 - Pueden contener imprecisiones, errores o sugerencias que no se adapten a su situación particular.
 - No reemplazan la consulta con un profesional financiero certificado.
-- TEFINANCE no se hace responsable de decisiones financieras tomadas con base en informes de IA.
+- TEFINANCE no se hace responsable de decisiones financieras tomadas con base en analsiis de IA.
 
 ### 9.3 Proveedores de IA
 
-Los informes son generados por un proveedor de inteligencia artificial ubicado en Estados Unidos. TEFINANCE se reserva el derecho de cambiar de proveedor en cualquier momento según necesidades técnicas u operativas de la plataforma. No autorizamos a estos proveedores a utilizar los datos de nuestros usuarios para entrenar sus modelos.
+Los analisis son generados por un proveedor de inteligencia artificial ubicado en Estados Unidos. TEFINANCE se reserva el derecho de cambiar de proveedor en cualquier momento según necesidades técnicas u operativas de la plataforma. No autorizamos a estos proveedores a utilizar los datos de nuestros usuarios para entrenar sus modelos.
 
 ---
 
@@ -204,7 +204,7 @@ Los informes son generados por un proveedor de inteligencia artificial ubicado e
 
 ### 10.1 Naturaleza del contenido
 
-El contenido que usted crea en TEFINANCE (registros financieros, metas, listas, etc.) es:
+El contenido que usted crea en TEFINANCE (registros financieros personales, metas, listas, etc.) es:
 
 - **Privado:** Solo usted puede ver su propio contenido.
 - **Personal:** No existe funcionalidad social ni de compartir.
@@ -225,12 +225,10 @@ El contenido que usted crea en TEFINANCE (registros financieros, metas, listas, 
 Son propiedad exclusiva del Titular y están protegidos por las leyes de propiedad intelectual:
 
 - El código fuente de la App.
-- El diseño de la interfaz de usuario (UI/UX).
-- Los logos, iconos y elementos gráficos de TEFINANCE.
 - El nombre "TEFINANCE" y las marcas asociadas.
 - Los textos, contenidos y documentación de la App.
 - Los algoritmos y lógica de negocio.
-- Los informes generados por la IA (estructura y formato, no los datos del usuario).
+- Los analisis generados por la IA (estructura y formato, no los datos del usuario).
 
 ### 11.2 Restricciones
 
@@ -307,7 +305,7 @@ Nos reservamos el derecho de suspender o terminar su cuenta sin previo aviso si:
 
 ### 14.2 Efectos de la eliminación
 
-- Se eliminan permanentemente todos sus datos de todas las tablas del sistema (ingresos, presupuestos, metas, tarjetas, préstamos, inversiones, fondos de emergencia, listas, informes, eventos de suscripción).
+- Se eliminan permanentemente todos sus datos de todas las tablas del sistema (ingresos, presupuestos, metas, tarjetas, préstamos, inversiones, fondos de emergencia, listas, analisis, eventos de suscripción).
 - Se elimina su cuenta de autenticación.
 - Se pierde acceso a cualquier suscripción activa.
 - **Este proceso es irreversible.** No podemos recuperar datos una vez eliminados.
@@ -332,7 +330,7 @@ LA APP SE PROPORCIONA "TAL CUAL" Y "SEGÚN DISPONIBILIDAD", SIN GARANTÍAS DE NI
 
 TEFINANCE no garantiza ni se responsabiliza de:
 
-- La exactitud, completitud o utilidad de los informes generados por IA.
+- La exactitud, completitud o utilidad de los analsis generados por IA.
 - Decisiones financieras que usted tome basándose en la información mostrada en la App.
 - Pérdidas económicas derivadas del uso o imposibilidad de uso de la App.
 - Errores de cálculo causados por datos ingresados incorrectamente por el usuario.
@@ -469,7 +467,7 @@ El hecho de que el Titular no ejerza un derecho o disposición de estos Término
 Las comunicaciones oficiales del Titular se realizarán a través de:
 
 - El correo electrónico asociado a su cuenta.
-- Publicación en https://mbl309.github.io/TEFINANCE/.
+- Publicación en https://amplexusagitta.com/.
 
 ### 21.6 Idioma
 
@@ -482,7 +480,7 @@ Estos Términos se redactan en español. En caso de existir traducciones, la ver
 | Canal | Detalle |
 |-------|---------|
 | **Contacto general** | amplexus.sagitta@gmail.com |
-| **Sitio web** | https://mbl309.github.io/TEFINANCE/ |
+| **Sitio web** | https://amplexusagitta.com/ |
 | **País** | Estados Unidos |
 
 ---

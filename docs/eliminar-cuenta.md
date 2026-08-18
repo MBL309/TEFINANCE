@@ -1,7 +1,7 @@
 # Eliminación de cuenta — TEFINANCE
 
 **Aplicación:** TEFINANCE  
-**Desarrollador:** MBL Development
+**Desarrollador:** Michell Benzant
 
 Esta página explica cómo los usuarios de **TEFINANCE** pueden solicitar la eliminación de su cuenta y de los datos asociados, conforme a los requisitos de Google Play Store.
 
@@ -34,7 +34,7 @@ Al eliminar tu cuenta, se borran de forma permanente e inmediata de nuestros sis
 - Tarjetas de crédito y préstamos registrados
 - Inversiones y fondos de emergencia
 - Listas de compras
-- Informes financieros generados con inteligencia artificial
+- Analisis financieros generados con inteligencia artificial
 - Preferencias y personalización del perfil
 
 ---

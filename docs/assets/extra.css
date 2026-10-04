@@ -260,3 +260,73 @@
   font-family: var(--tf-mono);
   color: var(--tf-primary);
 }
+
+/* ============================================================
+   AMPLEXUS — página de inicio "Muy pronto"
+   Todo va acotado con :has(.am-wrap), así que solo afecta a la
+   página que contiene ese bloque y no toca el resto del sitio.
+   ============================================================ */
+body:has(.am-wrap) .md-header,
+body:has(.am-wrap) .md-tabs,
+body:has(.am-wrap) .md-footer,
+body:has(.am-wrap) .md-sidebar,
+body:has(.am-wrap) .md-content__button {
+  display: none !important;
+}
+body:has(.am-wrap),
+body:has(.am-wrap) .md-main,
+body:has(.am-wrap) .md-container {
+  background: #FFFFFF !important;
+}
+body:has(.am-wrap) .md-content {
+  margin: 0 auto !important;
+  max-width: 640px;
+}
+
+.am-wrap {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #111111;
+}
+.md-typeset .am-wrap .am-soon {
+  font-family: var(--tf-body);
+  font-size: .8rem;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: #777777;
+  margin: 0 0 .75rem;
+}
+.md-typeset .am-wrap h1.am-title {
+  font-family: var(--tf-display);
+  font-size: clamp(2.6rem, 9vw, 4.5rem);
+  font-weight: 300;
+  letter-spacing: .12em;
+  color: #111111;
+  margin: 0 0 2.5rem;
+}
+.am-section {
+  margin: 0 0 1.75rem;
+  line-height: 1.6;
+}
+.md-typeset .am-wrap h2.am-label {
+  font-family: var(--tf-body);
+  font-size: .7rem;
+  font-weight: 400;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 0 0 .4rem;
+}
+.am-section p { margin: 0; }
+.am-wrap .headerlink { display: none; }
+.am-wrap a {
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+.am-wrap a:hover { border-bottom-color: #111111; }
